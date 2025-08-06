@@ -2,7 +2,7 @@
 
 This application provides a simple and easy way to manage all your tasks.
 
-![App Screenshot](link-to-screenshot.png)
+![App Screenshot]([link-to-screenshot](https://github.com/overcrown/task-manager/blob/main/src/assets/homepage.PNG?raw=true)
 
 ### Tech Stack
 
