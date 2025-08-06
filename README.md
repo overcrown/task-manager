@@ -4,7 +4,7 @@ This application provides a simple and easy way to manage all your tasks.
 
 ### App Preview
 
-<img src="https://raw.githubusercontent.com/overcrown/task-manager/refs/heads/main/src/assets/homepage.PNG" style="width: 900px; height: 800px;">
+<img src="https://raw.githubusercontent.com/overcrown/task-manager/refs/heads/main/src/assets/homepage.PNG" style="width: 1000px; height: 700px;">
 
 
 ### Tech Stack
