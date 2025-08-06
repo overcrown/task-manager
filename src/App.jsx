@@ -10,7 +10,7 @@ function App() {
     // At the APP, we creates the useStates and the functions who interacts with useState objects
     
     // Our state data is stored at browser memory
-    const [tasks, setTasks] = useState(JSON.parse(localStorage.getItem('tasks')));
+    const [tasks, setTasks] = useState(JSON.parse(localStorage.getItem('tasks')) || []);
     
 
     function onTasksClick(taskId)  {
