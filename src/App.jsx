@@ -62,6 +62,23 @@ function App() {
             setTasks(data)
         };
 
+        //console.log(JSON.parse(localStorage.getItem('tasks')).length);
+
+        // If there's no task, add a default one
+        if (JSON.parse(localStorage.getItem('tasks')).length === 0) {
+
+            // Doing this to initialize a session to each user with a default task
+            const firstTask = {
+                id: v4(), //v4() provides a random ID
+                title: "Hello Word",
+                description: "First task",
+                completed: false
+            }
+    
+            setTasks([ ...tasks, firstTask]);
+
+        }
+
         //getPosts();
 
     }, []);
